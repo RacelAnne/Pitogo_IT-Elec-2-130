@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.nfc.Tag
 import android.os.Bundle
 import android.util.Log
@@ -47,6 +48,8 @@ class MainActivity : AppCompatActivity() {
 
         btn_click_me.setOnClickListener {
             Log.w(TAG, "This is a warn log.")
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
         }
     }
 
