@@ -13,4 +13,23 @@
     <string name="to">To</string>
     <string name="subject">Subject</string>
     <string name="send">Send</string>
+    <string name="ToggleButton" translatable="false">toggle</string>
+    <string name="cats" translatable="false">cats</string>
+    <string name="Toggles" translatable="false">Toggles</string>
+    <string name="Pirates" translatable="false">pirates</string>
+    <string name="Ninjas" translatable="false">ninjas</string>
+    <string name="Dogs" translatable="false">dogs</string>
+    <string name="search" translatable="false">search</string>
+    <string name="select_a_robot" translatable="false">Select a robot</string>
+
+    <string-array name="character">
+        <item>Wall-E</item>
+        <item>Optimus Prime</item>
+        <item>Eva</item>
+        <item>Bumble Bee</item>
+        <item>Jazz</item>
+        <item>C7</item>
+        <item>Ultron</item>
+        <item>Iron Man</item>
+    </string-array>
 </resources>
