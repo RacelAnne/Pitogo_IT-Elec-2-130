@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Toast
 
-var array = arrayOf("Android", "Java", "Php", "Hadoop", "Sap", "Python", "Ajax", "C++", "Ruby", "Rails", ".Net", "Perl")
+var array = arrayOf("Raiden Ei", "Yae Miko", "Kujou Sara", "Ningguang", "Ganyu", "Eula", "Zhongli", "Venti", "Nahida", "Lisa", "Jean", "Beidou")
 class ListView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
