@@ -2,16 +2,27 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.view.View
 
 class MainActivityForFragment : AppCompatActivity() {
-    Button firstFragmentBtn, secondFragmentBtn
+    private val fragmentManager = supportFragmentManager
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_for_fragment)
+    }
 
+    fun onClickFirst(view: View) {
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.add(R.id.frameLayout, FirstFragment())
+        fragmentTransaction.addToBackStack(null)
+        fragmentTransaction.commit()
+    }
 
-        firstFragmentBtn = (Button) findViewById(R.id.firstFragmentBtn)
-        secondFragmentBtn = (Button) findViewById(R.id.secondFragmentBtn)
+    fun onClickSecond(view: View) {
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.add(R.id.frameLayout, SecondFragment())
+        fragmentTransaction.addToBackStack(null)
+        fragmentTransaction.commit()
     }
 }
