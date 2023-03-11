@@ -11,9 +11,7 @@ import android.widget.TextView;
 import com.example.myapplication.R;
 import com.example.myapplication.data.Pizza;
 
-/**
- * Created by Shyam Rokde on 8/5/16.
- */
+
 public class PizzaDetailFragment extends Fragment {
     int position = 0;
     TextView tvTitle;
