@@ -13,4 +13,8 @@
     <string name="to">To</string>
     <string name="subject">Subject</string>
     <string name="send">Send</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="secondfragment">secondFragment</string>
+    <string name="firstfragment">firstFragment</string>
 </resources>
